@@ -51,6 +51,7 @@ $ wget https://storage.googleapis.com/bert_models/2018_11_03/english_L-12_H-768_
 #start service
 $ bert-serving-start -model_dir/tmp/english_L-12_H-768_A-12/ -num_worker =12 -max_seq_len=40
 ```
+> If you want to build a Q&A system in other languages, you can download the corresponding language model.
 
 
 5. Start the query service
