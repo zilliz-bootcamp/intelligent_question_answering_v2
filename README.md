@@ -4,7 +4,7 @@ This project combines Milvus and the model provided by Bert to realize a questio
 
 ## Data description
 
-The question-and-answer data set needed for this project includes two texts, a question set and a one-to-one answer set corresponding to the question set, which exist in the data directory.
+The question-and-answer data set needed for this project is a csv file includes questions and answers.
 
 The data set in the data directory is a sample data.
 
@@ -32,7 +32,7 @@ QA/config.py：The script is a configuration file and needs to be modified for t
 
 ## Steps to build a project
 
-1.Install Milvus 0.10.4
+1.Install [Milvus 0.10.4](https://milvus.io/cn/docs/v0.10.4/milvus_docker-cpu.md)
 
 2.Install PostgreSQL
 
@@ -51,6 +51,7 @@ $ wget https://storage.googleapis.com/bert_models/2018_11_03/english_L-12_H-768_
 #start service
 $ bert-serving-start -model_dir/tmp/english_L-12_H-768_A-12/ -num_worker =12 -max_seq_len=40
 ```
+
 
 5. Start the query service
 
