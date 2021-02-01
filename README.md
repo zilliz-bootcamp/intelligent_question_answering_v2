@@ -49,7 +49,7 @@ pip install -r requriment.txt
 $ cd model
 $ wget https://storage.googleapis.com/bert_models/2018_11_03/english_L-12_H-768_A-12.zip
 #start service
-$ bert-serving-start -model_dir /model/english_L-12_H-768_A-12/ -num_worker=4 -max_seq_len=40
+$ bert-serving-start -model_dir /model/english_L-12_H-768_A-12/ -num_worker=2 -max_seq_len=40
 ```
 > If you want to build a Q&A system in other languages, you can download the corresponding language model.
 
