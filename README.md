@@ -1,3 +1,5 @@
+:exclamation::exclamation: **This repo will no longer be maintained, please visit https://github.com/milvus-io/bootcamp** :exclamation: :exclamation:
+
 # README
 
 This project combines Milvus and the model provided by Bert to realize a question and answer system.This project aims to provide a solution to achieve semantic similarity matching with Milvus combined with various AI models.
